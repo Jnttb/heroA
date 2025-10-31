@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PF Grand Gothik";
-  src: url("Tipografia/PF-GrandGothikVariable.ttf") format("truetype");
+  src: url("Tipografia/PF-Grand gothik/PF-GrandGothikVariable.ttf") format("truetype");
   font-weight: 100 900;
   font-display: swap;
 }
@@ -13,7 +13,7 @@
 
 body {
   font-family: "PF Grand Gothik", sans-serif;
-  background: #000;
+  background-color: #000;
   color: #fff;
   overflow-x: hidden;
 }
@@ -24,7 +24,8 @@ body {
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  background-image: url("Imagenes/fondo1.png");
+  background-color: #000; /* fondo negro seguro */
+  background-image: url("Imagenes/fondo1.png"); /* si existe, se mostrará */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,6 +108,7 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 2rem;
+    background-color: #000;
     background-image: url("Imagenes/fondo2.png");
     background-position: center top;
     background-size: cover;
@@ -145,4 +147,3 @@ body {
     position: relative;
   }
 }
-
